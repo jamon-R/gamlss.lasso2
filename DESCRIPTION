@@ -1,0 +1,22 @@
+Package: gamlss.lasso2
+Description: Interface for extra high-dimensional smooth functions for Generalized Additive Models for Location Scale and Shape (GAMLSS) including (adaptive) lasso, ridge, elastic net and least angle regression.
+Title: Extra Lasso-Type Additive Terms for GAMLSS
+LazyLoad: yes
+Version: 1.0-2
+Date: 2021-05-01
+Depends: R (>= 2.15.0), gamlss (>= 2.4.0), glmnet, lars, Matrix
+Suggests: lattice
+Authors@R: c(person("Florian", "Ziel", role = c("aut", "cre"),
+                    email = "florian.ziel@uni-due.de"),
+             person("Peru", "Muniain", role = "aut"),
+             person("Mikis", "Stasinopoulos", role = "ctb"))
+Maintainer: Florian Ziel <florian.ziel@uni-due.de>
+License: GPL-2 | GPL-3
+URL: https://www.gamlss.com/
+NeedsCompilation: no
+Packaged: 2021-05-21 08:56:25 UTC; florian
+Repository: CRAN
+Date/Publication: 2021-05-21 09:10:02 UTC
+Author: Florian Ziel [aut, cre],
+  Peru Muniain [aut],
+  Mikis Stasinopoulos [ctb]

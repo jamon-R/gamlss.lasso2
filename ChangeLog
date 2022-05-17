@@ -1,0 +1,12 @@
+version 1.0-0 2021-04-02
+	first version, glmnet and lars for GAMLSS
+
+version 1.0-1
+- report lambda in summary list of tail(getSmo(model),1)
+- report scaled beta.
+- added adaptive lasso for gnet (also as default) with penalty (|beta|+epsilon)^gamma, with default gamma=1, epsilon=1/sqrt(n), beta inital standard lasso estimate.
+
+
+version 1.0-2
+- Changed the way lambda sequence is passed to glmnet
+- Changed the way 1-SE rule is computed when using cross validation

@@ -1,0 +1,16 @@
+# functions
+export(
+			 gnet, gnet.control, gamlss.gnet,
+			 lrs, gamlss.lrs
+)
+
+#importFrom(gamlss.dist, dNO, pNO, qNO, as.gamlss.family)
+#importFrom(gamlss.add, fk, gamlss.fk)
+import(gamlss)
+
+importFrom(glmnet, glmnet)
+importFrom(lars, lars)
+importFrom(Matrix, Matrix)
+
+
+importFrom(stats, predict, sd)
